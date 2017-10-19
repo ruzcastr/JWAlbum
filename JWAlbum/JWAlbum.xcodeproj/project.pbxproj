@@ -15,7 +15,6 @@
 		04E7378E1F9715A000FCFF9D /* JWAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7378D1F9715A000FCFF9D /* JWAlbumTests.swift */; };
 		04E737991F9715A000FCFF9D /* JWAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E737981F9715A000FCFF9D /* JWAlbumUITests.swift */; };
 		04E737A71F9715CB00FCFF9D /* JWAblumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E737A61F9715CB00FCFF9D /* JWAblumView.swift */; };
-		04E737A91F97339400FCFF9D /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 04E737A81F97339400FCFF9D /* .swift-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		04E737981F9715A000FCFF9D /* JWAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWAlbumUITests.swift; sourceTree = "<group>"; };
 		04E7379A1F9715A000FCFF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E737A61F9715CB00FCFF9D /* JWAblumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWAblumView.swift; sourceTree = "<group>"; };
-		04E737A81F97339400FCFF9D /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		04E7376C1F9715A000FCFF9D = {
 			isa = PBXGroup;
 			children = (
-				04E737A81F97339400FCFF9D /* .swift-version */,
 				04E737771F9715A000FCFF9D /* JWAlbum */,
 				04E7378C1F9715A000FCFF9D /* JWAlbumTests */,
 				04E737971F9715A000FCFF9D /* JWAlbumUITests */,
@@ -238,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E737A91F97339400FCFF9D /* .swift-version in Resources */,
 				04E737831F9715A000FCFF9D /* LaunchScreen.storyboard in Resources */,
 				04E737801F9715A000FCFF9D /* Assets.xcassets in Resources */,
 				04E7377E1F9715A000FCFF9D /* Main.storyboard in Resources */,
@@ -436,6 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JWAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JayWong.JWAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JWAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JayWong.JWAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
