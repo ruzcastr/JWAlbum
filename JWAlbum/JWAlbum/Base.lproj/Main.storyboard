@@ -17,9 +17,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHK-ey-fM3">
+                                <rect key="frame" x="137.5" y="310.5" width="100" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="3kc-Ed-gha"/>
+                                    <constraint firstAttribute="width" constant="100" id="zhF-fR-du5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NHK-ey-fM3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fsb-1q-iex"/>
+                            <constraint firstItem="NHK-ey-fM3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x1c-MT-mrZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btn" destination="NHK-ey-fM3" id="Rgq-1Q-MeD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
